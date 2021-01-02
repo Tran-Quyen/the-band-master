@@ -405,6 +405,8 @@ html {
   padding: 10px 16px;
   float: right;
   text-transform: uppercase;
+  appearance: none; /* Áp dụng cho các Normal browser */
+  -webkit-appearance: none; /*Áp dụng cho safari*/
 }
 
 .contact-form .form-submit-btn:hover {
