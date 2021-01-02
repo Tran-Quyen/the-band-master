@@ -28,6 +28,10 @@ html {
 */
 
 /* Common */
+.rounded {
+  border-radius: 20px;
+}
+
 .mt-8 {
   margin-top: 8px !important;
 }
@@ -352,7 +356,7 @@ html {
   color: #fff;
   background-color: #000;
   padding: 11px 16px;
-  border: none;
+  border: 1px solid #000;
 }
 
 .place-buy-btn:hover {
